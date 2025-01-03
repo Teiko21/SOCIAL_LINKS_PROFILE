@@ -1,0 +1,141 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(0, 0%, 11%);
+    font-family: 'Inter';
+
+}
+
+.container{
+
+
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 15%);
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+
+picture{
+
+    padding: 35px 0 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+img{
+
+    width: 50%;
+    border-radius: 50%;
+
+}
+
+.Name_Localisation{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Name{
+
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color: aliceblue;
+    font-weight: 400;
+
+}
+
+.Localisation{
+
+    color: hsl(75, 94%, 57%);
+    font-size: 0.8rem;
+    padding-bottom: 25px;
+    font-weight: 600;
+    
+}
+
+.Job_Presentation{
+
+    color: aliceblue;
+    padding-bottom: 25px;
+    font-size: 0.8rem;
+
+}
+
+.Social_Media{
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+
+}
+
+.Social_Media > div{
+
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 0.7rem;
+    color: aliceblue;
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0 12px 0;
+    margin: 8px 0 8px 0;
+    border-radius: 5px;
+
+}
+
+.Social_Media > div:hover{
+
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.Social_Media > div:hover > a{
+
+    color: hsl(0, 0%, 8%);;
+
+}
+
+.attribution{
+
+    color: aliceblue;
+
+}
+
+a{
+
+color: aliceblue;
+text-decoration: none;
+
+}
